@@ -5,3 +5,32 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+h2  {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+	grid-template-columns: repeat(4, 250px);
+	grid-gap: 10px;
+}
+
+.news-img{
+    width: 90%;
+    height: auto;
+}
+
+.card{
+    border-top: 5px rgb(80, 201, 80) solid !important;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px gray; 
+}
+
+.pt-3{
+    vertical-align: auto !important;
+}
+
+p{
+    word-wrap: break-word;
+}
